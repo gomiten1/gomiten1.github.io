@@ -20,12 +20,12 @@ body {
 
 /* Título de la página arriba */
 .item-title {
-    font-family: 'Courier New', Courier, monospace; /* Estilo máquina de escribir/museo */
+    font-family: 'Courier New', Courier, monospace; 
     font-weight: bold;
     text-transform: uppercase;
     margin-bottom: 15px;
     letter-spacing: 3px;
-    color: #333;
+    color: #e4b841;
 }
 
 /* El marco "Museo" */
@@ -47,10 +47,17 @@ body {
 .item-credit {
     margin-top: 15px;
     font-size: 0.8rem;
-    color: #666;
+    color: #e4b841;
     font-style: italic;
-    border-top: 1px solid #ccc; /* Una línea sutil para separar */
+    border-top: 1px solid #ccc;
     padding-top: 5px;
     width: 80%;
     text-align: center;
+}
+
+footer {
+    text-align: center;
+    padding: 20px;
+    font-size: 0.9rem;
+    color: #eb1b1b;
 }
